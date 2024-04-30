@@ -25,20 +25,20 @@ void push(element item) {
 
 
 element pop() {
-	if (isStackEmpty()) {			// ������ ���� ������ ���
+	if (isStackEmpty()) {			
 		printf("\n\n Stack is Empty!!\n");
 		return 0;
 	}
-	else return stack[top--];	// ���� top�� ���Ҹ� ������ �� top ����
+	else return stack[top--];	
 }
 
 // ������ top ���Ҹ� �˻��ϴ� ����
 element peek() {
-	if (isStackEmpty()) {			// ������ ���� ������ ���
+	if (isStackEmpty()) {			
 		printf("\n\n Stack is Empty !\n");
 		exit(1);
 	}
-	else return stack[top];		// ���� top�� ���� Ȯ��
+	else return stack[top];		
 }
 
 // ������ ���Ҹ� ����ϴ� ����
